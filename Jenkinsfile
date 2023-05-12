@@ -24,7 +24,11 @@ pipeline {
         }
           stage('Deploy') {
             steps {
+ nathalie-jenkins
                 echo 'Deployment step'
+
+                echo 'Deploy step'
+ main
                 
             }
         }
